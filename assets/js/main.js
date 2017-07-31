@@ -177,6 +177,7 @@ $( () => {
   emailjs.send(service_id,template_id,{name:input[0].value, empresa:input[1].value, email:input[2].value, msj: textarea.value})
   .then(function(response) {
    console.log("SUCCESS. status=%d, text=%s", response.status, response.text);
+   myform.find("button").text("Sent!!!");
   }, function(err) {
    console.log("FAILED. error=", err);
   });
