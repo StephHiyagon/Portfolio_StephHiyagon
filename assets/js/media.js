@@ -17,7 +17,7 @@ mq768.addListener(mediaQueries);
 
 //boton video
 
-var video = document.getElementById('clickme');
+var videoM = document.getElementById('clickme');
 var overlay=document.getElementById('overlay');
 
 function clicked (e) {
@@ -29,4 +29,4 @@ function clicked (e) {
   }
 };
 
-video.addEventListener('click',clicked);
+videoM.addEventListener('click',clicked);

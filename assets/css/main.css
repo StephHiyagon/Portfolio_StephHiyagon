@@ -558,6 +558,9 @@ footer.black p{
 
 
 @media (max-width: 768px){
+  nav .brand-logo{
+    left:28%;
+  }
   div.info{
     left:2%;
   }
