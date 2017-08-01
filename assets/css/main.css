@@ -582,10 +582,17 @@ footer.black p{
     font-size:1.2rem;
   }*/
 
-  .menu1{
-    height: 95vh;
+  .menu1 a .pad {
+    margin-top: 3rem;
   }
 
+  .menu1{
+    height: 63vh;
+  }
+
+  .menu1 li {
+    padding: 4px 0 0px 0;
+  }
   .hamburger{
     right: 15px;
   }
